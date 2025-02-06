@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 85px;
+  font-family: inter;
+}
+
+.nav {
+  display: flex;
+  align-items: end;
+}
+
+.nav-links > a {
+  font-size: 0.85rem;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 25px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.nav-btn > button {
+  color: white;
+  padding: 10px 12px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 0.75rem;
+  font-weight: 100 !important;
+  cursor: pointer;
+}
+
+.nav-btn > button:nth-child(2) {
+  margin-left: 10px;
+  border: none;
+  background-color: red;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 8px 12px;
+}
+
+.nav-btn > button > i {
+  color: red;
+  background-color: white;
+  padding: 6px 7px;
+  font-weight: 900;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* Main content styling */
+
+.main-content {
+  width: 100%;
+  height: max-content;
+}
+
+/* Banner styling */
+
+.banner-section > img {
+  width: 100%;
+  height: fit-content;
+}
+
+/* Brands Styling */
+
+.brand-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.brand-section > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#brands-salt {
+  font-size: 2.6rem;
+}
+
+.brand-section > p {
+  color: grey;
+  font-size: 0.82rem;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+
+.brands {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.brands > .brands-card {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.brands-card > .brands-card-image {
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.brands-card > .brands-card-image > img {
+  width: 100%;
+  background-color: white;
+}
+
+.brands-card > button {
+  font-family: inter, Arial;
+  color: white;
+  padding: 14px 35px;
+  background-color: transparent;
+  border: 1px solid hsl(0, 0%, 25%);
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.franchise-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 85px;
+  padding-right: 85px;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.franchise-section > h1,
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.franchise-section > p {
+  color: hsl(0, 0%, 70%);
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 0.82rem;
+}
+
+.franchise {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.franchise-info {
+  width: 54%;
+}
+
+.city{
+    color: hsl(0, 100%, 40%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.franchise-info>h3{
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.franchise-info>p{
+    color: hsl(0, 0%, 70%);
+    font-size: .85rem;
+    margin-bottom: 8px;
+}
+
+.franchise-info>p>i{
+    font-size: .75rem;
+    margin-right: 3px;
+}
+
+.franchise-info>button{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 8px 18px;
+    font-size: .8rem;
+    text-align: end;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 65%);
+    margin-top: 35px;
+}
+
+.franchise-info>button>i{
+    background: white;
+    color: red;
+    padding: 5px 6px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+
+
+.franchise-image {
+  width: max-content;
+  height: max-content;
+}
+
+.franchise-image > img {
+    width: 100%;
+}
+
+
+
+
+
+
+#franchise-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+#franchise-reverse>.franchise-info{
+    width: 52.5%;
+}
+
+#franchise-reverse>.franchise-image>img{
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+.franchise-section > img {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  height: fit-content;
+}
+
+
+
+/* Express section styling */
+
+.express-section{
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.06) 50%, black 100%);
+    width: 95%;
+    margin: 35px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.express-section>h1{
+    padding: 30px;
+}
+
+.express-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+}
+
+.express-cards{
+    width: 31.5%;
+}
+
+.express-cards-image>img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.express-cards-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.express-city{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: hsl(0, 100%, 45%);
+    letter-spacing: 5px;
+    font-size: .65rem;
+    margin-bottom: 8px;
+}
+
+.express-cards-info>h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.express-cards-info>p{
+    font-size: .8rem;
+    color: hsl(0, 0%, 65%);
+    margin-bottom: 20px;
+}
+
+.express-cards-info>p>i{
+    font-size: .65rem;
+}
+
+.express-cards-info>button{
+    font-family: inter;
+    color: white;
+    padding: 8px 13px;
+    font-size: .75rem;
+    text-align: end;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 65%);
+    margin-top: 35px;
+}
+
+.express-cards-info>button>i{
+    background: white;
+    color: red;
+    padding: 5px 6px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+.your-element {
+    overflow: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  
+  .your-element::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  

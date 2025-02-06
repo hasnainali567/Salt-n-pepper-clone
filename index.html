@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -17,17 +11,272 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="background-color: black;">
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <img
+        src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp"
+        alt="logo"
+        width="140px"
+      />
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">About Us</a>
+          <a href="#" class="nav-link">Publication</a>
+        </div>
+        <div class="nav-btn">
+          <button class="btn">Get a Franchise</button>
+          <button class="btn">
+            Order online
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
 
-    <img src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="logo">
-    <img src="https://static.tossdown.com/site/f9238d0e-7c34-4139-a081-c57b7713628e.webp" alt="logo">
-    <img src="https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp" alt="">
-    <img src="https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp" alt="">
-    <img src="https://images-beta.tossdown.com/site/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp" alt="">
-    <img src="https://images-beta.tossdown.com/site/b2f78afe-11e4-4af5-8aef-cff9c2908614.webp" alt="">
-    <img src="https://images-beta.tossdown.com/site/11771dbf-36a1-4684-a55e-18af61e0f77c.webp" alt="">
-    <img src="https://images-beta.tossdown.com/site/7aba8915-02ed-46ee-bd96-1063abe072fa.webp" alt="">
+    <main class="main-content">
+      <section class="banner-section">
+        <img src="/images/delivery_image.webp" alt="banner" />
+      </section>
+
+      <section class="brand-section">
+        <h2>
+          Welcome to <span id="brands-salt">Salt'n Pepper</span><br />
+          Restaurants! Our Brands
+        </h2>
+        <p>
+          Please click our brands below for further information, reservations or
+          to order online!
+        </p>
+        <div class="brands">
+          <div class="brands-card">
+            <div class="brands-card-image">
+              <img
+                src="https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp"
+                alt="brands"
+              />
+            </div>
+            <button>Order Now</button>
+          </div>
+          <div class="brands-card">
+            <div class="brands-card-image">
+              <img
+                src="https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp"
+                alt="brands"
+              />
+            </div>
+            <button>Order Now</button>
+          </div>
+          <div class="brands-card">
+            <div class="brands-card-image">
+              <img
+                src="https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp"
+                alt="brands"
+              />
+            </div>
+            <button>Reserve a Table</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="franchise-section">
+
+        <h1>
+          Salt'n Pepper<br />
+          Restaurant Franchises
+        </h1>
+        <p>
+          Each of our franchises are individually managed. For further details,
+          kindly contact them directly.
+        </p>
+
+        <div class="franchise">
+          <div class="franchise-info">
+            <h5 class="city">Islamabad</h5>
+            <h3>Salt'n Pepper Restaurant</h3>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>Plot# 55, Shabbir Plaza,
+              Blue Area, F-6, Islamabad
+            </p>
+            <p><i class="fa-solid fa-phone"></i>Ph: 051-2604904-6</p>
+            <button>
+              Get Directions <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="franchise-image">
+            <img src="https://images-beta.tossdown.com/site/7aba8915-02ed-46ee-bd96-1063abe072fa.webp" alt="">
+          </div>
+        </div>
+        <div class="franchise" id="franchise-reverse">
+          <div class="franchise-info">
+            <h5 class="city">Faisalabad</h5>
+            <h3>Salt'n Pepper Restaurant</h3>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>4-Kohinoor City, Faisalabad
+            </p>
+            <p><i class="fa-solid fa-phone"></i>Ph: 041-8711404</p>
+            <button>
+              Get Directions <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="franchise-image">
+            <img src="https://images-beta.tossdown.com/site/11771dbf-36a1-4684-a55e-18af61e0f77c.webp" alt="">
+          </div>
+        </div>
+        <div class="franchise">
+          <div class="franchise-info">
+            <h5 class="city">Bahawalpur</h5>
+            <h3>Salt'n Pepper Restaurant</h3>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>D.C Chowk, opposite Commissioner House, Bahawalpur
+            </p>
+            <p><i class="fa-solid fa-phone"></i>Ph: 062-2740271-2</p>
+            <button>
+              Get Directions <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="franchise-image">
+            <img src="https://images-beta.tossdown.com/site/b2f78afe-11e4-4af5-8aef-cff9c2908614.webp" alt="">
+          </div>
+        </div>
+        <img src="https://images-beta.tossdown.com/site/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp" alt="">
+      </section>
+
+      <section class="express-section">
+        <h1>Salt'n Pepper<br />
+          Express Franchises</h1>
+
+          <div class="express-cards-container">
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="express-cards">
+              <div class="express-cards-image">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+              </div>
+              <div class="express-cards-info">
+                <h5 class="express-city">sargodha</h5>
+                <h3>Salt'n Pepper Express</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar Road</p>
+                <p><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                <button>Get Directions <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
     <img src="https://images-beta.tossdown.com/site/0df39a08-2dca-4998-adda-4ca66b1132cb.webp" alt="">
     <img src="https://static.tossdown.com/images/2741f491-d49f-4ec1-9de3-4df086748b54.webp" alt="">
