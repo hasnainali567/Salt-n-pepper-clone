@@ -34,3 +34,147 @@
         border-radius: 50%;
     }
 }
+
+
+@media screen and (max-width: 769px) {
+    .brand-section > h2 {
+        font-size: 1.5rem;
+    }
+
+    #brands-salt{
+        font-size: 1.5rem;
+    }
+
+    .brand-section > p{
+        font-size: .9;
+        letter-spacing: 1px;
+    }
+
+    .brands {
+        gap: 20px;
+    }
+
+    .brands > .brands-card{
+        width: 26%;
+    }
+
+    .brands-card > .brands-card-image{
+        padding: 2px 20px;
+    }
+
+    .brands-card > button {
+        width: 100%;
+        padding: 14px 0;
+        font-size: .85rem;
+        word-wrap: none;
+    }
+
+    #reserve-btn{
+        padding: 14px 25px;
+        word-wrap: none;
+    }
+
+    .franchise-section{
+        padding: 30px 50px 0;
+    }
+
+    .franchise-section > h1,
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .franchise-section > p{
+        font-size: 1rem;
+    }
+
+    .franchise{
+        margin-bottom: 30px;
+    }
+
+    .franchise-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .franchise-info > h3{
+        margin-bottom: 15px;
+    }
+
+    .city{
+        font-size: 1rem;
+    }
+
+    .franchise-info > button{
+        margin-top: 20px;
+    }
+
+    .franchise-info > p{
+        text-align: center;
+    }
+
+    .express-section > h1{
+        padding: 20px;
+    }
+
+    .express-cards-info > p{
+        font-size: .9rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .express-cards-info > button{
+        padding-inline: 0;
+        width: 65%;
+    }
+
+    .express-city{
+        font-size: .75rem;
+    }
+
+    .express-cards-container{
+        width: 100%;
+    }
+
+    .village-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .village-city{
+        font-size: 1.15rem;
+    }
+
+    .village-info>p{
+        font-size: 1.02rem;
+        text-align: center;
+    }
+
+    .village-info>button{
+        margin-top: 20px;
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .opening-section{
+        padding-top: 30px;
+    }
+
+    .opening-container{
+        margin: 20px;
+        column-gap: 25px;
+        row-gap: 20px;
+    }
+
+    .opening-card{
+        width: 29%;
+        padding: 25px 15px;
+        text-align: center;
+    }
+    
+    .opening-card>h3{
+        word-wrap: break-word;
+
+    }
+}
